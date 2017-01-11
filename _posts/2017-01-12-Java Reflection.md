@@ -27,6 +27,7 @@ public class MouseFactory{
 
 
 Reflection 을 이용한 Factory
+
 ```java
 public class MouseFactoryReflection{
     public Object getInstance(String className) throws Exception{
