@@ -1,6 +1,6 @@
 ---
 layout : post
-titile : N계층 서버 아키텍처
+title : N계층 서버 아키텍처
 ---
 
 
