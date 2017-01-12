@@ -53,7 +53,9 @@ baseurl: ""
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+#permalink: /:title/
+permalink: /:year/:month/:day/:title/ # url을 어떻게 구성할 건지 묻는 것
+
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -86,3 +88,6 @@ exclude:
   - CNAME
 
 theme: minima
+
+paginate: 5 # 몇 개의 포스트를 1개 페이지에 표시할 것인지
+paginate_path: '/page/:num/' # 페이지네이션 경로
