@@ -5,10 +5,10 @@ title : string format util
 
 ### String.format 형식
 
-<pre class="brush : java">
+```java
 String str = String.format("p1:[%s],p2:[%10s]", "arg1","arg2").replace(" ", "_");
 System.out.println(str);
-</pre>
+```
 
 ![](https://ww2.sinaimg.cn/large/006tNbRwgw1fb9v9d6ikyj30a6018q2y.jpg)
 
@@ -25,6 +25,6 @@ arg값을 format 형식에 맞게 바인딩하여 출력
 
 **ex) 문자열 좌측에 0을 채운다**
 
-<pre class=""brush : java>
+```java
 String str = String.format("%10s", "arg").replace(" ", "0");
-</pre>
+```
